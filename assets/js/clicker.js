@@ -45,7 +45,7 @@ function randomcoords() {
 
 // generates audio
 function clickAudio() {
-    var audio = new Audio('/assets/sounds/click.mp3');
+    var audio = new Audio('assets/sounds/click.mp3');
     audio.play();
 };
 
