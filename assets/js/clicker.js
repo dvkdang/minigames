@@ -24,10 +24,7 @@ function randomcoords() {
     let randYdown = Math.floor((Math.random() * height) + 1);
     let randXdown = randXup*-1;
     let randYup = randYdown*-1;
-
-    let xCoord = [randXup, randXdown]
-    let yCoord = [randYup, randYdown]
-
+    
     let randomNumberX = Math.floor((Math.random() * 2));
     let randomNumberY = Math.floor((Math.random() * 2));
     //0 is down, 1 is up
@@ -70,7 +67,6 @@ function keyPresser(key) {
 
     switch (key) {
         case "r":
-            // box.style.transform = `translate(${0}px, ${0}px)`
             document.location.reload();
             break; 
         }};
